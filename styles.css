@@ -24,7 +24,14 @@ a:hover {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #fa9b48 100%);
+    /* background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #fa9b48 100%); */
+    /* background: linear-gradient(to right bottom, #002f4b, #dc4225); */
+    /* background: radial-gradient(ellipse farthest-corner at 0 bottom, rgba(255, 255, 255, 0.15), rgba(0, 0, 0, 0.1) 100%) rgb(37, 37, 39); */
+    /* background:
+        linear-gradient(135deg, rgba(244, 226, 156, 0) 0%, rgba(59, 41, 58, 1) 100%),
+        linear-gradient(to right, rgba(244, 226, 156, 1) 0%, rgba(130, 96, 87, 1) 100%); */
+    background: radial-gradient(circle farthest-corner at center top, #3c3b52 0%, #252233 80%);
+
 }
 
 .scroll-list {
@@ -51,7 +58,11 @@ a:hover {
     background: #4b1079;
     background: #4b1079;
     margin-bottom: 15px;
-    background-image: linear-gradient(147deg, #6e0777 0%, #020004 74%);
+    /* background-image: linear-gradient(147deg, #6e0777 0%, #020004 74%); */
+    background:
+        radial-gradient(ellipse at bottom left, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%),
+        linear-gradient(to bottom, rgba(57, 173, 219, .25), rgba(42, 60, 87, 0.4)),
+        linear-gradient(135deg, #670d10, #092756);
     box-shadow: 0 5px 15px 0px rgba(255, 254, 254, 0.6);
 
 }
